@@ -1,0 +1,30 @@
+{
+  "name": "agen-theme",
+  "displayName": "Agen_theme",
+  "description": "its an agender/asexual theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "author": {
+    "name": "Vee Oasis",
+    "email": "veeaces96@gmail.com",
+    "url": "https://github.com/OasisVee"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "AgenAce",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AgenAce-color-theme.json"
+      }
+    ]
+  }
+}
